@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:grocery_app/pages/login_page.dart';
+import 'package:grocery_app/pages/main_page.dart';
 
 import 'pages/signup_page.dart';
 import 'pages/splash_page.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginPage(),
+      home: MainPage(),
       theme: ThemeData(fontFamily: 'Gilroy'),
     );
   }

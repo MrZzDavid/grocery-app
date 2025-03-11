@@ -15,12 +15,12 @@ class _SplashPageState extends State<SplashPage> {
   @override
   void initState() {
     super.initState();
-    Future.delayed(Duration(
-      seconds: 2
-    ),(){
-      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => WelcomePage()));
+    Future.delayed(Duration(seconds: 2), () {
+      Navigator.pushReplacement(
+          context, MaterialPageRoute(builder: (context) => WelcomePage()));
     });
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
